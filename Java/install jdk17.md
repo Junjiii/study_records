@@ -34,7 +34,7 @@ java -version
 /usr/libexec/java_home -v
 ```
 
-![Java version 확인.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/700642ed-279b-4c8c-bb83-cc60cc60d0a0/Java_version_%E1%84%92%E1%85%AA%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB.png)
+![Java version 확인](https://github.com/Junjiii/study_records/assets/138355289/6fcae066-4213-4679-af24-e89edc6bba6e)
 
 jdk17 설치 후 설치된 목록을 확인해보니 17버전이 나타나지를 않았다.
 
@@ -52,13 +52,14 @@ brew --prefix (패키지 ex: openjdk@17)
 
 따라서
 
-![brew list 확인.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/47812107-cfed-4219-81d0-e71c2f8bd476/brew_list_%E1%84%92%E1%85%AA%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB.png)
+![brew list 확인](https://github.com/Junjiii/study_records/assets/138355289/ea617883-8ccf-4c22-8c90-d37cf84eeaec)
 
 먼저 jdk17 이 설치가 되었는지 부터 확인했고 설치는 되어있었다.
 
 그 후
 
-![jdk 설치 경로 알아내기 .png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/383957a2-d83b-4ebf-af32-82144852db9e/jdk_%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5_%E1%84%80%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A9_%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%82%E1%85%A2%E1%84%80%E1%85%B5_.png)
+![jdk 설치 경로 알아내기 ](https://github.com/Junjiii/study_records/assets/138355289/324c5682-1dd9-479e-b1a0-8e3eece5f642)
+
 
 경로가 /usr/local/opt/openjdk@17 에 설치된 것을 확인했다.
 
@@ -100,13 +101,14 @@ export PATH=$JAVA_HOME_17/bin:
 
 따라서 sonoma 14.5 버전에서는 zsh 이기 때문에 .zshrc 라는 파일을 vi 와 같은 편집기 명령어를 사용해서 추가해주었다.
 
-![zshrc 경로 .png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/600ff4d4-3ef1-44f8-af56-5bb38e353a9b/zshrc_%E1%84%80%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A9_.png)
+![zshrc 경로 ](https://github.com/Junjiii/study_records/assets/138355289/3d216f25-5d77-4af8-af4e-eebe4eb0f54e)
 
-![경로 설정.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/10a7be66-9eaa-4622-83fc-d15a8f0948d8/%E1%84%80%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A9_%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC.png)
+![경로 설정](https://github.com/Junjiii/study_records/assets/138355289/56a4be01-57f0-4894-b0b4-a20996f12e57)
 
 이 후 마지막으로 버전 확인을 해보았다.
 
-![최종 버전 확인.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/16cf1d46-2ad1-4be2-ab9d-6070e806a0f7/%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC_%E1%84%87%E1%85%A5%E1%84%8C%E1%85%A5%E1%86%AB_%E1%84%92%E1%85%AA%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB.png)
+![최종 버전 확인](https://github.com/Junjiii/study_records/assets/138355289/c57c0965-bb07-4c9f-a781-eafe464431f8)
+
 
 결과는 성공!
 
@@ -118,17 +120,15 @@ export PATH=$JAVA_HOME_17/bin:
 
 1. intellij 화면
 
-![인텔리 제이 화면.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/1ef5dd65-6a2d-4478-8297-0f1ba04a4edf/%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A6%E1%86%AF%E1%84%85%E1%85%B5_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%B5_%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.png)
-
+![인텔리 제이 화면](https://github.com/Junjiii/study_records/assets/138355289/a94c1133-f1c2-4d83-b6f8-8467bd6b7cbe)
 먼저 intelliJ 로 들어온다.
 
 2. project signature 를 누른다.
 
-![project signature .png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/ae83f895-631a-4a5f-8a01-81d34264af88/project_signature_.png)
-
+![project signature ](https://github.com/Junjiii/study_records/assets/138355289/6abfdd40-8c50-4f2f-b69a-8e6f22adb991)
 3.  add jdk17 버전을 해준다.
 
-    ![add jdk17.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/7e229dd8-994a-4498-801c-053282b94f63/add_jdk17.png)
+![add jdk17](https://github.com/Junjiii/study_records/assets/138355289/fa81c3c1-dce7-4d36-b23d-788787d0cdc4)
 
     이미 추가를 해버려서 사진이 없지만 버전을 새로 설치한 후에는 Add JDK… 이라는 버튼 아래에
 
@@ -136,13 +136,13 @@ export PATH=$JAVA_HOME_17/bin:
 
 4.  project 로 가서 이전에 추가한 17버전을 눌러 수정해주고 apply 해준다.
 
-        ![스크린샷 2024-06-21 오후 3.44.11.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/4719687e-f085-4fe0-9aa0-84971103f177/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-06-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.44.11.png)
+![스크린샷 2024-06-21 오후 3 44 11](https://github.com/Junjiii/study_records/assets/138355289/b3559e91-1439-4e42-b34b-c972ded264e7)
 
 5.  modlues 에 default 로 바꿔준다.
 
-        ![스크린샷 2024-06-21 오후 3.46.05.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/d693bfb7-ad68-4fb3-86c1-40c478d3b1fc/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-06-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.46.05.png)
+![스크린샷 2024-06-21 오후 3 46 05](https://github.com/Junjiii/study_records/assets/138355289/1af878d7-0326-4946-8464-eaa23f4e0c19)
 
-        ![스크린샷 2024-06-21 오후 3.46.40.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/5ab616dd-882c-45af-94f3-90bdca3d329f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-06-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.46.40.png)
+![스크린샷 2024-06-21 오후 3 46 40](https://github.com/Junjiii/study_records/assets/138355289/6dd5c993-0195-42a9-8224-579b3d523227)
 
 ##마무리
 이렇게 해주면 jdk17 버전 설치 및 기존 프로젝트에 적용시킬 수 있다.
