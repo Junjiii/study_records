@@ -18,7 +18,7 @@ jdk17버전 업데이트 상황과 마주한 문제들을 리마인드를 위해
 brew install openjdk@17
 ```
 
-![jdk 17 설치 .png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/8d11bedf-c843-4252-97f4-b1fc1efead7f/jdk_17_%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5_.png)
+![jdk 17 설치 .png](https://github.com/Junjiii/study_records/assets/138355289/3ee7f539-ca8d-4083-9497-51bb8960d3a3)
 
 설치는 homebrew 를 통해 해당 명령어를 입력하고 아래와 같은 약 3분 정도의 설치 시간이 소요되었다.
 
