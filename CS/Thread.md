@@ -32,17 +32,17 @@
 
         text 영역과 data  영역은 선언할때 그 크기가 결정되는 정적 영역이지만 stack 영역과 heap 영역은 프로세스가 실행되는 동안 늘어나는 크기에 맞추는 동적인 영역이다.
 
-        ![스크린샷 2024-06-04 오후 7 57 49](https://github.com/Junjiii/study_records/assets/138355289/fd0ddb04-2927-4ae5-9a53-82cdc5e85593)
+   ![스크린샷 2024-06-04 오후 7 57 49](https://github.com/Junjiii/study_records/assets/138355289/fd0ddb04-2927-4ae5-9a53-82cdc5e85593)
 
-        ( 프로세스 구조 )
+   ( 프로세스 구조 )
 
-        ![스크린샷 2024-06-04 오후 7 14 38](https://github.com/Junjiii/study_records/assets/138355289/3b2b6ad8-3d8e-4577-be24-43af449257fe)
+   ![스크린샷 2024-06-04 오후 7 14 38](https://github.com/Junjiii/study_records/assets/138355289/3b2b6ad8-3d8e-4577-be24-43af449257fe)
 2.  스레드의 자원 공유
     운영체제로부터 할당받은 메모리 자원 내에서 스레드가 여러개 있다면 동시에 여러 일을 할 수 있게 된다. 이것은 “스레드 끼리 프로세스의 자원을 공유” 하면서 실행되기 때문에 작업이 가능한 것이다.
 
-        ![스크린샷 2024-06-04 오후 7 58 58](https://github.com/Junjiii/study_records/assets/138355289/e7420a9e-e197-4cbc-86b0-a0ed379f0b6b)
+   ![스크린샷 2024-06-04 오후 7 58 58](https://github.com/Junjiii/study_records/assets/138355289/e7420a9e-e197-4cbc-86b0-a0ed379f0b6b)
 
-        ![스크린샷 2024-06-04 오후 8 02 21](https://github.com/Junjiii/study_records/assets/138355289/7eec96b1-612b-48df-ad37-d08a79f78a04)
+   ![스크린샷 2024-06-04 오후 8 02 21](https://github.com/Junjiii/study_records/assets/138355289/7eec96b1-612b-48df-ad37-d08a79f78a04)
 
         프로세스의 4가지 영역 중 stack 만 할당받아 복사하고 code, data, heap 은 프로세스 내 다른 스레드들과 공유된다. 따라서 각각의 스레드는 별도의 stack 을 가지지만 heap 메모리는 고유하기 때문에 서로 다른 스레드에서 가져와 읽고 쓰게 된다.
         이렇게 구성된 이유는 하나의 프로세스를 다수의 실행 단위인 스레드로 구분하여 자원을 공유하고 자원의 생성과 관리의 중복성을 최소화하여 수행 능력을 올리기 위해서다 .
