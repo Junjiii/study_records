@@ -15,7 +15,7 @@
   <br/>
   <br/>
 
-### **SRP 단일 책임 원칙 - Single responsibility principle**
+### ** 1. SRP 단일 책임 원칙 - Single responsibility principle**
 
 <br/>
 
