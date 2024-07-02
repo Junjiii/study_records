@@ -28,7 +28,7 @@
 <br/>
 <br/>
 
-### **OCP 개방-폐쇄 원칙 - Open/closed principle**
+### **2. OCP 개방-폐쇄 원칙 - Open/closed principle**
 
 <br/>
 
@@ -37,7 +37,7 @@
 <br/>
 <br/>
 
-### **LSP 리스코프 치환 원칙 - Liskov substitution principle**
+### **3. LSP 리스코프 치환 원칙 - Liskov substitution principle**
 
 <br/>
 
@@ -50,7 +50,7 @@
 <br/>
 <br/>
 
-### **ISP 인터페이스 분리 원칙 - Interface segregation principle**
+### **4. ISP 인터페이스 분리 원칙 - Interface segregation principle**
 
 <br/>
 
@@ -63,7 +63,7 @@
 <br/>
 <br/>
 
-### **DIP 의존관계 역전 원칙 - Dependency inversion principle**
+### **5. DIP 의존관계 역전 원칙 - Dependency inversion principle**
 
 <br/>
 
