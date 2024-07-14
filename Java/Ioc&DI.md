@@ -33,14 +33,15 @@ DI는 의존성 주입이라는 의미로, 객체가 필요로 하는 의존성�
 
 ```java
 public static class AppConfig {
-			// service 라는 메소드를 통해 impl이라는 구현 객체를 선택해 주입하며
-			// serviceImpl 에는 repository() 라는 메소드를 주입한다.
+	// service 라는 메소드를 통해 impl이라는 구현 객체를 선택해 주입하며
+	// serviceImpl 에는 repository() 라는 메소드를 주입한다.
 
-			public Service service() {
-	        return new ServiceImpl(repository());
+	public Service service() {
+		return new ServiceImpl(repository());
 	}
-			// repository() 메소드 를 통해 RepositoryType1 이라는 구현 객체를 선택해 의존관계를 주입한다.
-	    public Repository repository() {
+
+	// repository() 메소드 를 통해 RepositoryType1 이라는 구현 객체를 선택해 의존관계를 주입한다.
+	 public Repository repository() {
 	        return new RepositoryType1();
 	}
 
