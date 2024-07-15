@@ -19,7 +19,7 @@ spring 프레임워크는 AppConfig 와 같은 설정정보를 ApplicationContex
 
 <br/>
 
-![스크린샷 2024-07-15 오후 2.34.38.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/11d4dc84-a278-43c5-a8af-bc5fa38dd611/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-07-15_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.34.38.png)
+![singleton1](https://github.com/user-attachments/assets/e296adfb-a3a1-4f0a-a737-916af403b9b2)
 
 <br/>
 
@@ -33,17 +33,17 @@ spring 프레임워크는 AppConfig 와 같은 설정정보를 ApplicationContex
 ## Singleton
 
 <br/>
-<br/>
+
 
 서비스를 만들어 배포하고 나면 여러 유저들이 여러 요청을 하게 된다. 그러면 클라이언트가 서버로 요청을 할때마다 로직에 사용되는 객체 인스턴스를 새로 생성해야한다. 이러면 메모리 낭비가 되고 과도한 요청이 몰리면 서버는 다운되게 된다.
 
 <br/>
 <br/>
 
-### singleton 이란?
+### Singleton 이란?
 
 <br/>
-<br/>
+
 
 그래서 이러한 문제를 해결하기 위해 singleton 이라는 개념이 등장했다.
 
@@ -102,16 +102,15 @@ private 생성자로 자식 클래스를 만들기 어렵다.
 ### Singleton 컨테이너
 
 <br/>
-<br/>
 
 스프링 프레임워크는 자체적으로 다른 코드를 장성하지 않아도 등록된 Bean 들을 싱글톤으로 관리해준다.
 
 이로써 DIP, OCP, 테스트, private 생성자로 부터 자유롭게 싱글톤을 사용할 수 있다.
 
 <br/>
-<br/>
 
-![스크린샷 2024-07-15 오후 3.11.19.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/9f5de07e-9e93-4033-bf12-3093cd4d49aa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-07-15_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.11.19.png)
+
+![singleton2](https://github.com/user-attachments/assets/e87677c2-77ec-4ec8-b10d-d3157f3b594f)
 
 <br/>
 <br/>
@@ -119,7 +118,7 @@ private 생성자로 자식 클래스를 만들기 어렵다.
 ### Singleton 패턴의 주의점
 
 <br/>
-<br/>
+
 
 여러 클라이언트가 인스턴스를 공유해서 사용하다보니 싱글톤 객체를 유지(stateful)하게 설계하면 안되고
 
@@ -137,7 +136,7 @@ private 생성자로 자식 클래스를 만들기 어렵다.
 ### @Configuration
 
 <br/>
-<br/>
+
 
 ```java
 @Configuration
