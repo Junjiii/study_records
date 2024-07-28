@@ -36,6 +36,8 @@ UPDATE MEMBER SET .....
 
 각각에 맞는 수 많은 쿼리를 작성하고 날려야한다.
 
+<br/>
+
 ### 필드 추가?
 
 ```sql
@@ -101,7 +103,8 @@ Object object = list.get(objectId);
 
 <br/>
 
-![스크린샷 2024-07-28 오후 3.04.49.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/47e9650f-9c0b-4157-bdb5-e1f0cf0764e1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-07-28_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.04.49.png)
+![JPA - SQL 중심적 개발의 문제점 ](https://github.com/user-attachments/assets/ab21aec3-f141-4895-b578-13d25ab91de4)
+
 
 <br/>
 
