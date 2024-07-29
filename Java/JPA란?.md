@@ -28,7 +28,7 @@ Object-Relational-Mapping (객체 관계 매핑)
 
 <br/>
 
-![스크린샷 2024-07-29 오후 1.45.41.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/4c4b109f-3503-46ef-8080-49919cc36c8d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-07-29_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.45.41.png)
+<img width="779" alt="1" src="https://github.com/user-attachments/assets/dc69f2bf-7f55-4925-bba9-140e29f94e19">
 
 <br/>
 
@@ -40,7 +40,7 @@ DB에 데이터 작업을 요청하려면 JDBC 를 사용해야한다. 그 작�
 
 하지만 JPA 는 다른 프레임워크와는 다른 점들이 있다. 
 
-![스크린샷 2024-07-29 오후 1.56.13.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/9b181664-6d3b-49d4-9ee3-a8e5fa4c673c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-07-29_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.56.13.png)
+<img width="784" alt="2" src="https://github.com/user-attachments/assets/5344516c-8b4f-4127-a01e-68835c3e0d68">
 
 DAO 에서 Entity 를 객체로 JPA 에 persist 해주면 JPA 는 Entity 를 분석해서 INSERT SQL 를 RDB 에 맞는 문법으로 자동으로 작성해줘서 JDBC API 를 사용해 DB 로 날려주고 이 과정과 결과에서 일어나는 패러다임 불일치하는 부분들을 알아서 Object 로 변형시켜주면서 해결해준다. 
 
