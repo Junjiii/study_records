@@ -14,7 +14,7 @@ Spring 에서 Spring Container 와 비슷한 개념이다.
 
 <br/>
 
-![스크린샷 2024-08-01 오후 7.47.55.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/5bc7f1d3-8a49-42ba-a86f-2c94798fbd8f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-08-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.47.55.png)
+<img width="801" alt="1" src="https://github.com/user-attachments/assets/5ea3e3a6-12a0-4cc3-bbcf-22797c6780ad">
 
 <br/>
 <br/>
@@ -111,6 +111,9 @@ memberA == memberB // true
 
 1차 캐시로 반복 가능한 읽기(REPETABLE READ) 등급의 트랜잭션 격리 수준을 데이터베이스가 아닌 애플리케이션 차원에서 제공한다. 결국엔 같은 트랜잭션 안에서 같은것을 조회 할 경우 동일성이 보장된 것이 나온다는 의미이다.
 
+<br/>
+<br/>
+
 - 엔티티 등록 - 트랜잭션을 지원하는 쓰기 지연
 
 <br/>
@@ -131,11 +134,11 @@ tx.commit(); // [트랜잭션] 커밋
 
 <br/>
 
-![스크린샷 2024-08-01 오후 9.04.39.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/83a2006c-ef6c-4c35-80fa-dd670aa32550/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-08-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.04.39.png)
+<img width="845" alt="2" src="https://github.com/user-attachments/assets/3a243dbf-2375-4546-b237-1a670c5babd0">
 
 <br/>
 
-![스크린샷 2024-08-01 오후 9.07.34.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/6b3ae18f-da6a-44f2-9259-604febadf9dc/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-08-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.07.34.png)
+<img width="829" alt="3" src="https://github.com/user-attachments/assets/f1892c35-97b5-4ff1-9948-9ca1b5fe14b0">
 
 <br/>
 
