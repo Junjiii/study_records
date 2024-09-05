@@ -4,7 +4,7 @@ URI 는 로케이터 (locator) , 이름 (name) 또는 줄 다 추가로 분류 �
 
 그래서 URI 라는 큰 개념 안에 URL, URN 으로 나뉘게 된다.
 
-![image 1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2fb4e0b6-2f67-42d5-ae18-318abefb8cc9/65becee1-182c-4bec-894b-0fadc460362e/image_1.png)
+<img width="670" alt="image 1" src="https://github.com/user-attachments/assets/dbe8568c-7243-4c13-9900-bd51ecbfe80f">
 
 <br/>
 <br/>
